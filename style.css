@@ -1,0 +1,88 @@
+
+    table {
+    border-collapse: collapse; /* Ensures borders do not have gaps */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; /* Automatically adjusts left and right margins to center the table */
+    }
+    th, td {
+    border: 1px solid white; /* Adds borders to table cells */
+     padding: 8px; /* Optional for spacing */
+     text-align: center; /* Optional for alignment */
+     color: aliceblue;
+    }
+        mark{
+            background-color: silver;
+            font-weight: bold;
+        }
+        h1, h2, h3 {
+            color: antiquewhite;
+            padding: 20px;
+            text-align: left;
+        
+        }
+        h1, .class-1{
+            text-align: center;
+        
+        }
+        h3{
+            margin-top: -30px;
+        }
+        
+        
+        p{
+            color:antiquewhite;
+            padding: 20px;
+            margin-top: -40px;
+            font-size: 15px;
+        }
+  
+  
+
+        body, html {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+    
+        /* Video Background */
+        video {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1; /* Place the video in the background */
+        }
+    
+        /* Content Styling */
+        .content {
+          font-family: Arial, sans-serif;
+          color: #fff; /* White text for readability */
+          padding: 20px;
+        }
+    
+        /* Add some extra spacing for scrolling */
+        .content h1, .content p{
+          background: rgba(0, 0, 0, 0.5); /* Transparent black background for text readability */
+          padding: 10px;
+          border-radius: 1px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+        }
+       
+
+    
+        ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+    .list-1, .list-2,.list-3 {
+    margin: 15px;
+    padding: 30px;
+    color: antiquewhite;
+}
